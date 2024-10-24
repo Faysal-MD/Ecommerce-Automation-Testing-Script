@@ -35,9 +35,9 @@ This repository contains a Python script that automates the process of adding pr
    git clone https://github.com/your-username/your-repo.git
 
 2. Install the required package
-```
-pip install selenium pandas openpyxl
-```
+   ```
+   pip install selenium pandas openpyxl
+   ```
 3. Download the appropriate version of ChromeDriver and specify its path in the script.
 4. Create an Excel file named `product_data.xlsx` in the same directory, with the appropriate columns mentioned above.
 
