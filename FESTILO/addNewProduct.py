@@ -15,17 +15,17 @@ driver.implicitly_wait(10)  # Implicit wait for all elements
 data = pd.read_excel('product_data.xlsx')  # Ensure you specify the correct path
 
 # Open the desired URL
-driver.get("https://estilo-admin-dev.dreamonlinelimited.xyz/")
+driver.get("https://www.ecommerce.com/")
 
 # Send keys to the username and password fields
-driver.find_element(By.XPATH, "//input[@id='email']").send_keys("admin@estilo.com")
+driver.find_element(By.XPATH, "//input[@id='email']").send_keys("admin")
 driver.find_element(By.XPATH, "//input[@id='password']").send_keys("password")
 
 # Click the login button
 driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
 # Navigate to the products page
-driver.get("https://estilo-admin-dev.dreamonlinelimited.xyz/products")
+driver.get("https://www.ecommerce.com/products")
 
 # Iterate through each product in the Excel sheet
 for index, row in data.iterrows():
