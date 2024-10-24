@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Environment Variables
+.env
+
+# IDE or Editor Files
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Excel files (if you want to ignore product data)
+*.xlsx
+
+# ChromeDriver and other binary files
+chromedriver*
+geckodriver*
