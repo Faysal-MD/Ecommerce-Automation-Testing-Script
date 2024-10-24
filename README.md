@@ -41,3 +41,15 @@ This repository contains a Python script that automates the process of adding pr
 3. Download the appropriate version of ChromeDriver and specify its path in the script.
 4. Create an Excel file named `product_data.xlsx` in the same directory, with the appropriate columns mentioned above.
 
+## Usage
+
+1. Open the script in your preferred Python environment.
+2. Update the following lines with your credentials:
+   ```
+   driver.find_element(By.XPATH, "//input[@id='email']").send_keys("admin")
+   driver.find_element(By.XPATH, "//input[@id='password']").send_keys("password")
+   ```
+3. Ensure the target e-commerce URL is correctly set in the script:
+   ```driver.get("https://www.ecommerce.com/products")```
+4. Run the script
+
